@@ -1,6 +1,6 @@
 FROM openjdk:11
 
-COPY OlaUnicamp.java
+COPY OlaUnicamp.java /
 
 CMD [ "javac", "OlaUnicamp.java"]
 CMD [ "java", "OlaUnicamp"]
